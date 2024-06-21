@@ -13,7 +13,7 @@ function App() {
         { title: "Everly", rating: 4.5, genre: "Action" }
     ];
 
-    const [movies, setMovies] = useState(initialMovies);
+    // const [movies, setMovies] = useState(initialMovies);
     const [searchQuery, setSearchQuery] = useState('');
     const [ratingFilter, setRatingFilter] = useState('');
     const [genreFilter, setGenreFilter] = useState([]);
